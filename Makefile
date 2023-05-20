@@ -25,6 +25,7 @@ dev: init ## start the site in development mode
 	cd my-gatsby-site; \
 	yarn develop
 
+# TODO: QA
 open: ## open the site in your browser
 	@echo "Opening http://localhost:8000"
 	num_fields(): ps aux | grep -E "node.*yarn develop" | grep -v grep | awk '{print NF}'); \
