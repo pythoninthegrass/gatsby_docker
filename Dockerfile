@@ -38,8 +38,9 @@ yarn build
 
 EOF
 
+# * QA-only
 # CMD [ "sleep", "infinity" ]
-CMD [ "bash", "-c", "sleep infinity" ]
+# CMD [ "bash", "-c", "sleep infinity" ]
 
 FROM node:18-bullseye-slim AS server
 
